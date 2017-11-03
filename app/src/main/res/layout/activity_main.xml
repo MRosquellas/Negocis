@@ -105,7 +105,7 @@
             android:textColor="@color/blanco"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
 
-            android:background="@drawable/weather"
+            android:background="@drawable/hotels"
             />
         <ImageView
             android:id="@+id/buttonK"
