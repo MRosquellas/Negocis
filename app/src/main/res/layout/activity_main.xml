@@ -20,8 +20,6 @@
         android:background="@color/blanco"
         android:layout_gravity="center"
         tools:context="com.educem.primeraapp.ActividadPrincipal"
-
-
         >
 
 
