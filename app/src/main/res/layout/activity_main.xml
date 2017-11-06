@@ -104,8 +104,7 @@
             android:onClick="hotels"
             android:textColor="@color/blanco"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
-
-            android:background="@drawable/business"
+            android:background="@drawable/hotels"
             />
         <ImageView
             android:id="@+id/buttonK"
