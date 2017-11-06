@@ -7,11 +7,16 @@
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="116dp"
-        android:background="@color/colorPrimaryDark">
+        android:background="@color/DimGray">
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:fontFamily="serif-monospace"
+            android:gravity="center"
             android:text="Cinema"
-            android:gravity="center"/>
+            android:textColor="@color/White"
+            android:textSize="50dp" />
     </FrameLayout>
+
 </LinearLayout>
