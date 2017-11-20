@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".restaurant" />
         <activity android:name=".weather"></activity>
+        <activity android:name=".movies"></activity>
+        <activity android:name=".hotels"></activity>
     </application>
 
 </manifest>

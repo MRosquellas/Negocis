@@ -1,141 +1,155 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
-    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+>
+    <Spinner
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="116dp">
-            <ImageView
-                android:id="@+id/assassin"
-                android:layout_width="150dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/assassin" />
-        </LinearLayout>
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="match_parent"
-            android:layout_height="116dp">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="Título: American Assassin" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_weight="2"
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="Genero: Acción" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_weight="2"
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Valoración: "/>
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/estrella"
-                    android:scaleType="fitXY"
-                    />
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/estrella"
-                    android:scaleType="fitXY"
-                    />
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/estrella"
-                    android:scaleType="fitXY"
-                    />
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/estrella"
-                    android:scaleType="fitXY"
-                    />
-            </LinearLayout>
-        </LinearLayout>
+        android:layout_height="40dp"></Spinner>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="116dp">
+        <ImageView
+            android:id="@+id/iris"
+            android:layout_width="150dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/hotel_iris"
+            android:onClick="infoiris"/>
     </LinearLayout>
     <LinearLayout
+        android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="116dp">
+    <LinearLayout
+    android:layout_width="match_parent"
+        android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Hotel Iris" />
+        <ImageView
+            android:id="@+id/llamada1"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/llamada"
+            android:tag="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="2"
+        android:orientation="horizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <LinearLayout
+        <TextView
             android:layout_width="wrap_content"
-            android:layout_height="116dp">
-            <ImageView
-                android:id="@+id/brazos"
-                android:layout_width="150dp"
-                android:layout_marginLeft="10dp"
-                android:layout_marginTop="10dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/brazosabiertos" />
-        </LinearLayout>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:text="Av. Sant Esteve, 92" />
+    </LinearLayout>
         <LinearLayout
-            android:orientation="vertical"
+            android:layout_weight="2"
+            android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="116dp">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:orientation="horizontal"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="Con los brazos abiertos" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_weight="2"
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginLeft="10dp"
-                    android:text="Genero: Comedia" />
-            </LinearLayout>
-            <LinearLayout
-                android:layout_weight="2"
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Valoración: "/>
-                <ImageView
+            android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@drawable/estrella"
+            android:scaleType="fitXY"
+            />
+            <ImageView
+            android:layout_width="30dp"
+            android:layout_height="20dp"
+            android:src="@drawable/estrella"
+            android:scaleType="fitXY"
+            />
+            <ImageView
                 android:layout_width="30dp"
                 android:layout_height="20dp"
                 android:src="@drawable/estrella"
                 android:scaleType="fitXY"
                 />
+        </LinearLayout>
+</LinearLayout>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="116dp">
+            <ImageView
+                android:id="@+id/atenea"
+                android:layout_width="150dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY"
+                android:src="@drawable/atenea"
+                android:onClick="infoatenea"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="116dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Aparthotel Atenea Vallés" />
                 <ImageView
+                    android:id="@+id/llamada2"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/llamada"
+                    android:tag="2"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Carrer Aragón, 49" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/estrella"
+                    android:scaleType="fitXY"
+                    />            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@drawable/estrella"
+                android:scaleType="fitXY"
+                />            <ImageView
                 android:layout_width="30dp"
                 android:layout_height="20dp"
                 android:src="@drawable/estrella"
@@ -156,13 +170,14 @@
             android:layout_width="wrap_content"
             android:layout_height="116dp">
             <ImageView
-                android:id="@+id/deep"
+                android:id="@+id/fondaeuropa"
                 android:layout_width="150dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/deep"
-/>
+                android:src="@drawable/fondaeuropa"
+                android:scaleType="fitXY"
+                android:onClick="infofonda"/>
         </LinearLayout>
         <LinearLayout
             android:orientation="vertical"
@@ -177,7 +192,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:text="Deep" />
+                    android:text="Fonda Europa" />
+                <ImageView
+                    android:id="@+id/llamada3"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/llamada"
+                    android:tag="3"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_weight="2"
@@ -189,24 +212,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:text="Genero: Animación" />
+                    android:text="Anselm Clavé, 1 " />
             </LinearLayout>
             <LinearLayout
                 android:layout_weight="2"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Valoración: "/>
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/estrella"
-                    android:scaleType="fitXY"
-                    />
-
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="20dp"
@@ -214,17 +226,17 @@
                     android:scaleType="fitXY"
                     />
                 <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/estrella"
-                    android:scaleType="fitXY"
-                    />
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@drawable/estrella"
+                android:scaleType="fitXY"
+                />
                 <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/estrella"
-                    android:scaleType="fitXY"
-                    />
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@drawable/estrella"
+                android:scaleType="fitXY"
+                />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
@@ -235,12 +247,14 @@
             android:layout_width="wrap_content"
             android:layout_height="116dp">
             <ImageView
-                android:id="@+id/vampiro"
+                android:id="@+id/hotelgran"
                 android:layout_width="150dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/vampiro"/>
+                android:src="@drawable/hotelgran"
+                android:scaleType="fitXY"
+                android:onClick="infohotelgran"/>
         </LinearLayout>
         <LinearLayout
             android:orientation="vertical"
@@ -255,7 +269,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:text="El pequeño vampiro" />
+                    android:text="Hotel Granollers" />
+                <ImageView
+                    android:id="@+id/llamada4"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/llamada"
+                    android:tag="4"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_weight="2"
@@ -267,23 +289,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:text="Genero: Animación" />
+                    android:text="Av. Francesc Macià, 300" />
             </LinearLayout>
             <LinearLayout
                 android:layout_weight="2"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Valoración: "/>
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/estrella"
-                    android:scaleType="fitXY"
-                    />
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="20dp"
@@ -310,12 +322,14 @@
             android:layout_width="wrap_content"
             android:layout_height="116dp">
             <ImageView
-                android:id="@+id/marrowbone"
+                android:id="@+id/ciutatgran"
                 android:layout_width="150dp"
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/marrowbone"/>
+                android:src="@drawable/ciutatgran"
+                android:scaleType="fitXY"
+                android:onClick="infociutatgran"/>
         </LinearLayout>
         <LinearLayout
             android:orientation="vertical"
@@ -330,7 +344,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:text="El secreto de Marrowbone" />
+                    android:text="Hotel Ciutat de Granollers" />
+                <ImageView
+                    android:id="@+id/llamada5"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/llamada"
+                    android:tag="5"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_weight="2"
@@ -342,30 +364,19 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:text="Genero: Thriller" />
+                    android:text="Turó Bruguet, 2" />
             </LinearLayout>
             <LinearLayout
                 android:layout_weight="2"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Valoración: "/>
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="20dp"
                     android:src="@drawable/estrella"
                     android:scaleType="fitXY"
-                    />
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/estrella"
-                    android:scaleType="fitXY"
-                    />
-                <ImageView
+                    />            <ImageView
                 android:layout_width="30dp"
                 android:layout_height="20dp"
                 android:src="@drawable/estrella"
@@ -396,7 +407,9 @@
                 android:layout_marginLeft="10dp"
                 android:layout_marginTop="10dp"
                 android:layout_height="wrap_content"
-                android:src="@drawable/amor" />
+                android:src="@drawable/ibisgran"
+                android:scaleType="fitXY"
+                android:onClick="infoibis"/>
         </LinearLayout>
         <LinearLayout
             android:orientation="vertical"
@@ -411,7 +424,15 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:text="La gran enfermedad del amor" />
+                    android:text="Hotel Ibis Montmeló Granollers" />
+                <ImageView
+                    android:id="@+id/llamada6"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/llamada"
+                    android:tag="6"/>
             </LinearLayout>
             <LinearLayout
                 android:layout_weight="2"
@@ -423,23 +444,13 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:layout_marginLeft="10dp"
-                    android:text="Genero: Comedia" />
+                    android:text="Can Gordi, 1" />
             </LinearLayout>
             <LinearLayout
                 android:layout_weight="2"
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Valoración: "/>
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_height="20dp"
-                    android:src="@drawable/estrella"
-                    android:scaleType="fitXY"
-                    />
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="20dp"
@@ -454,4 +465,85 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="116dp">
+
+            <ImageView
+                android:id="@+id/hotelh"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:onClick="infohotelh"
+                android:scaleType="fitXY"
+                android:src="@drawable/hotelh" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Hotel H" />
+                <ImageView
+                    android:id="@+id/llamada7"
+                    android:layout_marginLeft="10dp"
+                    android:layout_gravity="center"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/llamada"
+                    android:tag="7"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Carretera Masnou, Km14" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/estrella" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="20dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/estrella" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
 </LinearLayout>
