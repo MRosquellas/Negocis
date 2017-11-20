@@ -1,9 +1,203 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.darkangara.negocis.restaurant">
 
-</android.support.constraint.ConstraintLayout>
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:prompt="@string/escriu"
+        android:entries="@array/res"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="452dp">
+
+        <LinearLayout
+            android:id="@+id/italia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img1it"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/taggliatella" />
+                <ImageView
+                    android:id="@+id/www1it"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    android:onClick="rest"
+                    app:srcCompat="@drawable/www" />
+                <ImageView
+                    android:id="@+id/gmap1it"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    android:onClick="rest5"
+                    app:srcCompat="@drawable/gmaps" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img2it"
+                    android:layout_width="133dp"
+                    android:layout_height="97dp"
+                    app:srcCompat="@drawable/sapore" />
+                <ImageView
+                    android:id="@+id/www2it"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/www" />
+                <ImageView
+                    android:id="@+id/gmap2it"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/gmaps" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img3it"
+                    android:layout_width="133dp"
+                    android:layout_height="95dp"
+                    app:srcCompat="@drawable/mezzaluna" />
+                <ImageView
+                    android:id="@+id/www3it"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/www" />
+                <ImageView
+                    android:id="@+id/gmap3it"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/gmaps" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/japones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img1jap"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/shingari" />
+                <ImageView
+                    android:id="@+id/www1jap"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/www" />
+                <ImageView
+                    android:id="@+id/gmap1jap"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/gmaps" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img2jap"
+                    android:layout_width="133dp"
+                    android:layout_height="97dp"
+                    app:srcCompat="@drawable/wagaya" />
+                <ImageView
+                    android:id="@+id/www2jap"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/www" />
+                <ImageView
+                    android:id="@+id/gmap2jap"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/gmaps" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/entrepans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="invisible">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img1ent"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/viena" />
+                <ImageView
+                    android:id="@+id/www1ent"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    android:onClick="restviena"
+                    app:srcCompat="@drawable/www" />
+                <ImageView
+                    android:id="@+id/gmap1ent"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/gmaps" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/img2ent"
+                    android:layout_width="133dp"
+                    android:layout_height="97dp"
+                    app:srcCompat="@drawable/xavisan" />
+                <ImageView
+                    android:id="@+id/www2ent"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/www" />
+                <ImageView
+                    android:id="@+id/gmap2ent"
+                    android:layout_width="135dp"
+                    android:layout_height="108dp"
+                    app:srcCompat="@drawable/gmaps" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -7,45 +7,42 @@
     android:layout_gravity="center"
     >
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
         android:id="@+id/LinearLayout1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/blanco"
         android:orientation="horizontal"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:background="@color/blanco"
-        android:layout_gravity="center"
-        tools:context="com.educem.primeraapp.ActividadPrincipal"
-        >
-
+        tools:context="com.educem.primeraapp.ActividadPrincipal">
 
         <ImageView
             android:id="@+id/buttonB"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:onClick="business"
-            android:textColor="@color/blanco"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_weight="1"
             android:background="@drawable/business"
-            />
+            android:onClick="business"
+            android:textColor="@color/blanco" />
+
         <ImageView
             android:id="@+id/buttonR"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:textColor="@color/blanco"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
-
             android:layout_marginStart="@dimen/activity_horizontal_margin"
+
             android:background="@drawable/restaurants"
-            />
+            android:textColor="@color/blanco" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -58,7 +55,6 @@
         android:layout_gravity="center"
         tools:context="com.educem.primeraapp.ActividadPrincipal"
         >
-
 
         <ImageView
             android:id="@+id/buttonM"
@@ -95,7 +91,6 @@
         tools:context="com.educem.primeraapp.ActividadPrincipal"
         >
 
-
         <ImageView
             android:id="@+id/buttonH"
             android:layout_width="wrap_content"
@@ -105,7 +100,7 @@
             android:textColor="@color/blanco"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
 
-            android:background="@drawable/business"
+            android:background="@drawable/hotels"
             />
         <ImageView
             android:id="@+id/buttonK"

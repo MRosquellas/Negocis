@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Negocis</string>
+    <string-array name="res">
+        <item>Selecciona el tipus de restaurant...</item>
+        <item>Restaurants italians</item>
+        <item>Restaurants japones</item>
+        <item>Restaurants entrepans</item>
+    </string-array>
+    <string name="escriu">Selecciona el tipus de restaurant...</string>
 </resources>
