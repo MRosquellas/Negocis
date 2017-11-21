@@ -17,7 +17,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:background="@color/blanco"
+        android:background="@color/White"
         android:layout_gravity="center"
         tools:context="com.educem.primeraapp.ActividadPrincipal"
         >
@@ -29,7 +29,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="business"
-            android:textColor="@color/blanco"
+            android:textColor="@color/White"
             android:layout_marginBottom="@dimen/activity_vertical_margin"
             android:background="@drawable/business"
             />
@@ -38,7 +38,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
 
-            android:textColor="@color/blanco"
+            android:textColor="@color/White"
             android:layout_marginLeft="@dimen/activity_horizontal_margin"
 
             android:layout_marginStart="@dimen/activity_horizontal_margin"
@@ -54,7 +54,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:background="@color/blanco"
+        android:background="@color/White"
         android:layout_gravity="center"
         tools:context="com.educem.primeraapp.ActividadPrincipal"
         >
@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="movies"
-            android:textColor="@color/blanco"
+            android:textColor="@color/White"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
 
             android:background="@drawable/movies"
@@ -76,7 +76,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:textColor="@color/blanco"
+            android:textColor="@color/White"
 
             android:background="@drawable/weather"
             />
@@ -90,7 +90,7 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
-        android:background="@color/blanco"
+        android:background="@color/White"
         android:layout_gravity="center"
         tools:context="com.educem.primeraapp.ActividadPrincipal"
         >
@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:onClick="hotels"
-            android:textColor="@color/blanco"
+            android:textColor="@color/White"
             android:layout_marginRight="@dimen/activity_horizontal_margin"
 
             android:background="@drawable/hotels"
@@ -114,7 +114,7 @@
             android:layout_weight="1"
 
             android:onClick="knowledge"
-            android:textColor="@color/blanco"
+            android:textColor="@color/White"
 
             android:background="@drawable/knowledge"
             />
